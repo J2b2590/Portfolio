@@ -31,11 +31,15 @@ button {
 }
 
 p{
-  font-family: 'Avenir', medium;
+  font-family: 'Barlow', sans-serif;
   text-align: left;
-  font-weight: bolder;
   font-size: 15px;
   
+}
+
+.hey{
+    font-weight: bolder;
+
 }
 
 
