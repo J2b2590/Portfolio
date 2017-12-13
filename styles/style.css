@@ -1,0 +1,208 @@
+*,body,html{
+  // background-color: yellow;
+  // z-index: -1000;
+
+}
+
+
+
+
+#desc{
+  text-align: center;
+  font-size: 8px;
+  
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 2px solid;
+}
+
+.me{
+  height:35%;
+  width: 72%;
+  margin-left: 16%;
+  margin-top: 7%;
+  margin-bottom: 6%;
+  
+}
+
+p{
+  font-family: 'Avenir', medium;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 15px;
+  
+}
+
+
+
+h4,h1{
+	text-align: center;
+}
+
+h4{
+  font-family: 'Avenir', light;
+
+}
+
+
+.projects{
+
+	margin-top:1%;
+  opacity: .9;	
+	display: inline;
+ 
+}
+
+
+
+.musicAp,.rockAp{
+
+	width: 100%;
+  box-sizing: border-box;
+
+ 
+}
+
+.music{
+  position: relative;
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 540px;
+  height: 95%%;
+  
+
+}
+
+.musicp{
+  position: relative;
+  margin: 2%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 540px;
+  height: 85%;
+  padding: 8px;
+  
+  
+}
+
+.beer{
+  position: relative;
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 540px;
+
+}
+.rock{
+  position: relative;
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 540px;
+
+}
+
+.beer:hover .overlay {
+  top: 0;
+  
+}
+.beer .overlay {
+  top: 100%;
+  
+}
+
+.beerText {
+  white-space: nowrap; 
+  font-weight: bold;
+  color: white;
+  font-size: calc(15px + 3vw);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+.music:hover .overlay {
+  top: 0;
+  
+}
+.music .overlay {
+  top: 100%;
+  
+}
+
+.musicText {
+  white-space: nowrap; 
+  font-weight: bold;
+  color: white;
+  font-size: calc(15px + 3vw);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  margin-top: -8%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: rgba(43, 43, 43,1);
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  width: 100%; 
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+
+
+
+
+.rockText {
+  white-space: nowrap; 
+  font-weight: bold;
+  color: white;
+  font-size: calc(15px + 3vw);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+.hidden {
+  opacity: 0;
+  margin-top: -730px;
+  z-index: -5;
+  transition: 1s ease;
+}
+
+
+
+
+
