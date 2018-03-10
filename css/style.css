@@ -66,6 +66,9 @@ h4{
 
 .musicAp,.rockAp{
 
+
+  
+
 	width: 100%;
   box-sizing: border-box;
 
@@ -79,7 +82,7 @@ h4{
   overflow: hidden;
   width: 100%;
   max-width: 540px;
-  height: 95%%;
+  height: 95%;
   
 
 }
